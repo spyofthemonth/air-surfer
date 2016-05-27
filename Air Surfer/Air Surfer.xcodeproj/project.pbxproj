@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		940A8E7E1A10A3E400370BB1 /* sparkParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 940A8E7D1A10A3E400370BB1 /* sparkParticle.sks */; };
+		9422BC121A13334000169693 /* restartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9422BC111A13334000169693 /* restartButton.png */; };
+		942C3E5E19FA2871009A1601 /* airSurferPlayerSprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 942C3E5D19FA2871009A1601 /* airSurferPlayerSprite.png */; };
+		942C3E6019FA2883009A1601 /* board.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 942C3E5F19FA2883009A1601 /* board.atlas */; };
+		942C3E6219FA3EB7009A1601 /* heart.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 942C3E6119FA3EB7009A1601 /* heart.atlas */; };
+		942C3E6619FA5043009A1601 /* starBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 942C3E6319FA5042009A1601 /* starBG.png */; };
+		942C3E6719FA5043009A1601 /* starFG.png in Resources */ = {isa = PBXBuildFile; fileRef = 942C3E6419FA5042009A1601 /* starFG.png */; };
+		942C3E6819FA5043009A1601 /* starMG.png in Resources */ = {isa = PBXBuildFile; fileRef = 942C3E6519FA5043009A1601 /* starMG.png */; };
+		943549A41A0770EE00710443 /* airSurferInstructions.gif in Resources */ = {isa = PBXBuildFile; fileRef = 943549A31A0770EE00710443 /* airSurferInstructions.gif */; };
+		943549A61A07830100710443 /* cometObstacle.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 943549A51A07830100710443 /* cometObstacle.atlas */; };
+		94410661195FA2ED000563F2 /* ASBasicObstacle.m in Sources */ = {isa = PBXBuildFile; fileRef = 94410660195FA2ED000563F2 /* ASBasicObstacle.m */; };
+		94622AB91A06015200468A58 /* airSurferCreditsDone.gif in Resources */ = {isa = PBXBuildFile; fileRef = 94622AB81A06015200468A58 /* airSurferCreditsDone.gif */; };
+		947A48711962463200E8DD5C /* ASFireGenerators.m in Sources */ = {isa = PBXBuildFile; fileRef = 947A48701962463200E8DD5C /* ASFireGenerators.m */; };
+		94818A721A045F6400E40B31 /* meteoWall.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 94818A711A045F6400E40B31 /* meteoWall.atlas */; };
+		94818A751A049C0000E40B31 /* ASCometObstacle.m in Sources */ = {isa = PBXBuildFile; fileRef = 94818A741A049C0000E40B31 /* ASCometObstacle.m */; };
+		9491FF701A037C4400AA4959 /* basicObstacle.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 9491FF6F1A037C4400AA4959 /* basicObstacle.atlas */; };
+		9491FF731A037CA900AA4959 /* fireGeneratorSprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 9491FF711A037CA900AA4959 /* fireGeneratorSprite.png */; };
+		9491FF741A037CA900AA4959 /* fireGeneratorSprite2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9491FF721A037CA900AA4959 /* fireGeneratorSprite2.png */; };
+		94947A4D1A05920700E59C9C /* ASMainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 94947A4C1A05920700E59C9C /* ASMainMenu.m */; };
+		94947A511A05A3D200E59C9C /* ASInstructionsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 94947A501A05A3D200E59C9C /* ASInstructionsScene.m */; };
+		94947A541A05A3E300E59C9C /* ASCreditsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 94947A531A05A3E300E59C9C /* ASCreditsScene.m */; };
+		949BDE831A19AAF3003561FE /* airSurferTheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 949BDE7F1A19AAF3003561FE /* airSurferTheme.mp3 */; };
+		949BDE851A19AAF3003561FE /* explosion1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 949BDE811A19AAF3003561FE /* explosion1.mp3 */; };
+		949BDE861A19AAF3003561FE /* explosion2.aif in Resources */ = {isa = PBXBuildFile; fileRef = 949BDE821A19AAF3003561FE /* explosion2.aif */; };
+		949BDE891A19B513003561FE /* explosion0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 949BDE881A19B513003561FE /* explosion0.mp3 */; };
+		94A0859E19595F0300C663F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A0859D19595F0300C663F8 /* Foundation.framework */; };
+		94A085A019595F0300C663F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A0859F19595F0300C663F8 /* CoreGraphics.framework */; };
+		94A085A219595F0300C663F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A085A119595F0300C663F8 /* UIKit.framework */; };
+		94A085A419595F0300C663F8 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A085A319595F0300C663F8 /* SpriteKit.framework */; };
+		94A085AA19595F0300C663F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94A085A819595F0300C663F8 /* InfoPlist.strings */; };
+		94A085AC19595F0300C663F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A085AB19595F0300C663F8 /* main.m */; };
+		94A085B019595F0300C663F8 /* ASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A085AF19595F0300C663F8 /* ASAppDelegate.m */; };
+		94A085B319595F0300C663F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A085B119595F0300C663F8 /* Main.storyboard */; };
+		94A085B619595F0300C663F8 /* ASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A085B519595F0300C663F8 /* ASViewController.m */; };
+		94A085B919595F0300C663F8 /* ASMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A085B819595F0300C663F8 /* ASMyScene.m */; };
+		94A085BD19595F0300C663F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A085BC19595F0300C663F8 /* Images.xcassets */; };
+		94A085C419595F0300C663F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A085C319595F0300C663F8 /* XCTest.framework */; };
+		94A085C519595F0300C663F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A0859D19595F0300C663F8 /* Foundation.framework */; };
+		94A085C619595F0300C663F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A085A119595F0300C663F8 /* UIKit.framework */; };
+		94A085CE19595F0300C663F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94A085CC19595F0300C663F8 /* InfoPlist.strings */; };
+		94A085D019595F0300C663F8 /* Air_SurferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A085CF19595F0300C663F8 /* Air_SurferTests.m */; };
+		94A085DB19595F5700C663F8 /* ASGameLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A085DA19595F5700C663F8 /* ASGameLevel.m */; };
+		94A085DE19595FCE00C663F8 /* ASPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A085DD19595FCE00C663F8 /* ASPlayer.m */; };
+		94A085E11959636E00C663F8 /* ASSurferBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A085E01959636E00C663F8 /* ASSurferBoard.m */; };
+		94A82D1F1A0CA21C00286824 /* titleFontAirSurfer.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A82D1E1A0CA21C00286824 /* titleFontAirSurfer.png */; };
+		94BB860119FDAE81005CC15D /* planetTexturesMG.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BB85FF19FDAE81005CC15D /* planetTexturesMG.png */; };
+		94BB860219FDAE81005CC15D /* planetTexturesMGSecond.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BB860019FDAE81005CC15D /* planetTexturesMGSecond.png */; };
+		94EFA6A11A0EE9C90035D2C2 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 94EFA69F1A0EE9C90035D2C2 /* spark.png */; };
+		94EFA6AA1A0EF05F0035D2C2 /* fireParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 94EFA6A91A0EF05F0035D2C2 /* fireParticle.sks */; };
+		94EFA6B01A0F0AE10035D2C2 /* test.sks in Resources */ = {isa = PBXBuildFile; fileRef = 94EFA6AF1A0F0AE10035D2C2 /* test.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94A085C719595F0300C663F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94A0859219595F0300C663F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94A0859919595F0300C663F8;
+			remoteInfo = "Air Surfer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		940A8E7D1A10A3E400370BB1 /* sparkParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sparkParticle.sks; sourceTree = "<group>"; };
+		9422BC111A13334000169693 /* restartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restartButton.png; sourceTree = "<group>"; };
+		942C3E5D19FA2871009A1601 /* airSurferPlayerSprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airSurferPlayerSprite.png; sourceTree = "<group>"; };
+		942C3E5F19FA2883009A1601 /* board.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = board.atlas; sourceTree = "<group>"; };
+		942C3E6119FA3EB7009A1601 /* heart.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = heart.atlas; sourceTree = "<group>"; };
+		942C3E6319FA5042009A1601 /* starBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starBG.png; sourceTree = "<group>"; };
+		942C3E6419FA5042009A1601 /* starFG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starFG.png; sourceTree = "<group>"; };
+		942C3E6519FA5043009A1601 /* starMG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starMG.png; sourceTree = "<group>"; };
+		943549A31A0770EE00710443 /* airSurferInstructions.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = airSurferInstructions.gif; sourceTree = "<group>"; };
+		943549A51A07830100710443 /* cometObstacle.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = cometObstacle.atlas; sourceTree = "<group>"; };
+		9441065F195FA2ED000563F2 /* ASBasicObstacle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBasicObstacle.h; sourceTree = "<group>"; };
+		94410660195FA2ED000563F2 /* ASBasicObstacle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBasicObstacle.m; sourceTree = "<group>"; };
+		94622AB81A06015200468A58 /* airSurferCreditsDone.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = airSurferCreditsDone.gif; sourceTree = "<group>"; };
+		947A486F1962463200E8DD5C /* ASFireGenerators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFireGenerators.h; sourceTree = "<group>"; };
+		947A48701962463200E8DD5C /* ASFireGenerators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFireGenerators.m; sourceTree = "<group>"; };
+		94818A711A045F6400E40B31 /* meteoWall.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = meteoWall.atlas; sourceTree = "<group>"; };
+		94818A731A049C0000E40B31 /* ASCometObstacle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCometObstacle.h; sourceTree = "<group>"; };
+		94818A741A049C0000E40B31 /* ASCometObstacle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCometObstacle.m; sourceTree = "<group>"; };
+		9491FF6F1A037C4400AA4959 /* basicObstacle.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = basicObstacle.atlas; sourceTree = "<group>"; };
+		9491FF711A037CA900AA4959 /* fireGeneratorSprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireGeneratorSprite.png; sourceTree = "<group>"; };
+		9491FF721A037CA900AA4959 /* fireGeneratorSprite2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireGeneratorSprite2.png; sourceTree = "<group>"; };
+		94947A4B1A05920700E59C9C /* ASMainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASMainMenu.h; sourceTree = "<group>"; };
+		94947A4C1A05920700E59C9C /* ASMainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASMainMenu.m; sourceTree = "<group>"; };
+		94947A4F1A05A3D200E59C9C /* ASInstructionsScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASInstructionsScene.h; sourceTree = "<group>"; };
+		94947A501A05A3D200E59C9C /* ASInstructionsScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASInstructionsScene.m; sourceTree = "<group>"; };
+		94947A521A05A3E300E59C9C /* ASCreditsScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCreditsScene.h; sourceTree = "<group>"; };
+		94947A531A05A3E300E59C9C /* ASCreditsScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCreditsScene.m; sourceTree = "<group>"; };
+		949BDE7F1A19AAF3003561FE /* airSurferTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = airSurferTheme.mp3; sourceTree = "<group>"; };
+		949BDE811A19AAF3003561FE /* explosion1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion1.mp3; sourceTree = "<group>"; };
+		949BDE821A19AAF3003561FE /* explosion2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = explosion2.aif; sourceTree = "<group>"; };
+		949BDE881A19B513003561FE /* explosion0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion0.mp3; sourceTree = "<group>"; };
+		94A0859A19595F0300C663F8 /* Air Surfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Air Surfer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A0859D19595F0300C663F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94A0859F19595F0300C663F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94A085A119595F0300C663F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94A085A319595F0300C663F8 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		94A085A719595F0300C663F8 /* Air Surfer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Air Surfer-Info.plist"; sourceTree = "<group>"; };
+		94A085A919595F0300C663F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94A085AB19595F0300C663F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94A085AD19595F0300C663F8 /* Air Surfer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Air Surfer-Prefix.pch"; sourceTree = "<group>"; };
+		94A085AE19595F0300C663F8 /* ASAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASAppDelegate.h; sourceTree = "<group>"; };
+		94A085AF19595F0300C663F8 /* ASAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASAppDelegate.m; sourceTree = "<group>"; };
+		94A085B219595F0300C663F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94A085B419595F0300C663F8 /* ASViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASViewController.h; sourceTree = "<group>"; };
+		94A085B519595F0300C663F8 /* ASViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASViewController.m; sourceTree = "<group>"; };
+		94A085B719595F0300C663F8 /* ASMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASMyScene.h; sourceTree = "<group>"; };
+		94A085B819595F0300C663F8 /* ASMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASMyScene.m; sourceTree = "<group>"; };
+		94A085BC19595F0300C663F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94A085C219595F0300C663F8 /* Air SurferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Air SurferTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A085C319595F0300C663F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		94A085CB19595F0300C663F8 /* Air SurferTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Air SurferTests-Info.plist"; sourceTree = "<group>"; };
+		94A085CD19595F0300C663F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94A085CF19595F0300C663F8 /* Air_SurferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Air_SurferTests.m; sourceTree = "<group>"; };
+		94A085D919595F5700C663F8 /* ASGameLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASGameLevel.h; sourceTree = "<group>"; };
+		94A085DA19595F5700C663F8 /* ASGameLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASGameLevel.m; sourceTree = "<group>"; };
+		94A085DC19595FCE00C663F8 /* ASPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPlayer.h; sourceTree = "<group>"; };
+		94A085DD19595FCE00C663F8 /* ASPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPlayer.m; sourceTree = "<group>"; };
+		94A085DF1959636E00C663F8 /* ASSurferBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASSurferBoard.h; sourceTree = "<group>"; };
+		94A085E01959636E00C663F8 /* ASSurferBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSurferBoard.m; sourceTree = "<group>"; };
+		94A82D1E1A0CA21C00286824 /* titleFontAirSurfer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titleFontAirSurfer.png; sourceTree = "<group>"; };
+		94BB85FF19FDAE81005CC15D /* planetTexturesMG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planetTexturesMG.png; sourceTree = "<group>"; };
+		94BB860019FDAE81005CC15D /* planetTexturesMGSecond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planetTexturesMGSecond.png; sourceTree = "<group>"; };
+		94EFA69F1A0EE9C90035D2C2 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		94EFA6A91A0EF05F0035D2C2 /* fireParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fireParticle.sks; sourceTree = "<group>"; };
+		94EFA6AF1A0F0AE10035D2C2 /* test.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = test.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94A0859719595F0300C663F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A085A019595F0300C663F8 /* CoreGraphics.framework in Frameworks */,
+				94A085A219595F0300C663F8 /* UIKit.framework in Frameworks */,
+				94A085A419595F0300C663F8 /* SpriteKit.framework in Frameworks */,
+				94A0859E19595F0300C663F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A085BF19595F0300C663F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A085C419595F0300C663F8 /* XCTest.framework in Frameworks */,
+				94A085C619595F0300C663F8 /* UIKit.framework in Frameworks */,
+				94A085C519595F0300C663F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		942C3E6919FA5049009A1601 /* parralaxTextures */ = {
+			isa = PBXGroup;
+			children = (
+				94BB85FF19FDAE81005CC15D /* planetTexturesMG.png */,
+				94BB860019FDAE81005CC15D /* planetTexturesMGSecond.png */,
+				942C3E6319FA5042009A1601 /* starBG.png */,
+				942C3E6419FA5042009A1601 /* starFG.png */,
+				942C3E6519FA5043009A1601 /* starMG.png */,
+			);
+			name = parralaxTextures;
+			sourceTree = "<group>";
+		};
+		9491FF751A037CB000AA4959 /* fireGeneratorSprites */ = {
+			isa = PBXGroup;
+			children = (
+				9491FF711A037CA900AA4959 /* fireGeneratorSprite.png */,
+				9491FF721A037CA900AA4959 /* fireGeneratorSprite2.png */,
+			);
+			name = fireGeneratorSprites;
+			sourceTree = "<group>";
+		};
+		94947A4E1A05A3AD00E59C9C /* Menus */ = {
+			isa = PBXGroup;
+			children = (
+				94947A4B1A05920700E59C9C /* ASMainMenu.h */,
+				94947A4C1A05920700E59C9C /* ASMainMenu.m */,
+				94947A4F1A05A3D200E59C9C /* ASInstructionsScene.h */,
+				94947A501A05A3D200E59C9C /* ASInstructionsScene.m */,
+				94947A521A05A3E300E59C9C /* ASCreditsScene.h */,
+				94947A531A05A3E300E59C9C /* ASCreditsScene.m */,
+			);
+			name = Menus;
+			sourceTree = "<group>";
+		};
+		949BDE871A19AAF9003561FE /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				949BDE7F1A19AAF3003561FE /* airSurferTheme.mp3 */,
+				949BDE881A19B513003561FE /* explosion0.mp3 */,
+				949BDE811A19AAF3003561FE /* explosion1.mp3 */,
+				949BDE821A19AAF3003561FE /* explosion2.aif */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		94A0859119595F0300C663F8 = {
+			isa = PBXGroup;
+			children = (
+				94A085A519595F0300C663F8 /* Air Surfer */,
+				94A085C919595F0300C663F8 /* Air SurferTests */,
+				94A0859C19595F0300C663F8 /* Frameworks */,
+				94A0859B19595F0300C663F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94A0859B19595F0300C663F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94A0859A19595F0300C663F8 /* Air Surfer.app */,
+				94A085C219595F0300C663F8 /* Air SurferTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94A0859C19595F0300C663F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94A0859D19595F0300C663F8 /* Foundation.framework */,
+				94A0859F19595F0300C663F8 /* CoreGraphics.framework */,
+				94A085A119595F0300C663F8 /* UIKit.framework */,
+				94A085A319595F0300C663F8 /* SpriteKit.framework */,
+				94A085C319595F0300C663F8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94A085A519595F0300C663F8 /* Air Surfer */ = {
+			isa = PBXGroup;
+			children = (
+				94A085AE19595F0300C663F8 /* ASAppDelegate.h */,
+				94A085AF19595F0300C663F8 /* ASAppDelegate.m */,
+				94A085B119595F0300C663F8 /* Main.storyboard */,
+				94A085B419595F0300C663F8 /* ASViewController.h */,
+				94A085B519595F0300C663F8 /* ASViewController.m */,
+				94A085B719595F0300C663F8 /* ASMyScene.h */,
+				94A085B819595F0300C663F8 /* ASMyScene.m */,
+				94A085D919595F5700C663F8 /* ASGameLevel.h */,
+				94A085DA19595F5700C663F8 /* ASGameLevel.m */,
+				94A085DC19595FCE00C663F8 /* ASPlayer.h */,
+				94A085DD19595FCE00C663F8 /* ASPlayer.m */,
+				94A085DF1959636E00C663F8 /* ASSurferBoard.h */,
+				94A085E01959636E00C663F8 /* ASSurferBoard.m */,
+				94947A4E1A05A3AD00E59C9C /* Menus */,
+				94A8F479197D111E00814D73 /* Obstacles */,
+				9491FF751A037CB000AA4959 /* fireGeneratorSprites */,
+				942C3E6919FA5049009A1601 /* parralaxTextures */,
+				94818A711A045F6400E40B31 /* meteoWall.atlas */,
+				9491FF6F1A037C4400AA4959 /* basicObstacle.atlas */,
+				942C3E6119FA3EB7009A1601 /* heart.atlas */,
+				942C3E5F19FA2883009A1601 /* board.atlas */,
+				943549A51A07830100710443 /* cometObstacle.atlas */,
+				94622AB81A06015200468A58 /* airSurferCreditsDone.gif */,
+				943549A31A0770EE00710443 /* airSurferInstructions.gif */,
+				942C3E5D19FA2871009A1601 /* airSurferPlayerSprite.png */,
+				94A82D1E1A0CA21C00286824 /* titleFontAirSurfer.png */,
+				9422BC111A13334000169693 /* restartButton.png */,
+				949BDE871A19AAF9003561FE /* Music */,
+				94EFA6A21A0EE9E20035D2C2 /* particles */,
+				94A085BC19595F0300C663F8 /* Images.xcassets */,
+				94A085A619595F0300C663F8 /* Supporting Files */,
+			);
+			path = "Air Surfer";
+			sourceTree = "<group>";
+		};
+		94A085A619595F0300C663F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94A085A719595F0300C663F8 /* Air Surfer-Info.plist */,
+				94A085A819595F0300C663F8 /* InfoPlist.strings */,
+				94A085AB19595F0300C663F8 /* main.m */,
+				94A085AD19595F0300C663F8 /* Air Surfer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94A085C919595F0300C663F8 /* Air SurferTests */ = {
+			isa = PBXGroup;
+			children = (
+				94A085CF19595F0300C663F8 /* Air_SurferTests.m */,
+				94A085CA19595F0300C663F8 /* Supporting Files */,
+			);
+			path = "Air SurferTests";
+			sourceTree = "<group>";
+		};
+		94A085CA19595F0300C663F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94A085CB19595F0300C663F8 /* Air SurferTests-Info.plist */,
+				94A085CC19595F0300C663F8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94A8F479197D111E00814D73 /* Obstacles */ = {
+			isa = PBXGroup;
+			children = (
+				947A486F1962463200E8DD5C /* ASFireGenerators.h */,
+				947A48701962463200E8DD5C /* ASFireGenerators.m */,
+				9441065F195FA2ED000563F2 /* ASBasicObstacle.h */,
+				94410660195FA2ED000563F2 /* ASBasicObstacle.m */,
+				94818A731A049C0000E40B31 /* ASCometObstacle.h */,
+				94818A741A049C0000E40B31 /* ASCometObstacle.m */,
+			);
+			name = Obstacles;
+			sourceTree = "<group>";
+		};
+		94EFA6A21A0EE9E20035D2C2 /* particles */ = {
+			isa = PBXGroup;
+			children = (
+				94EFA69F1A0EE9C90035D2C2 /* spark.png */,
+				94EFA6A91A0EF05F0035D2C2 /* fireParticle.sks */,
+				94EFA6AF1A0F0AE10035D2C2 /* test.sks */,
+				940A8E7D1A10A3E400370BB1 /* sparkParticle.sks */,
+			);
+			name = particles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94A0859919595F0300C663F8 /* Air Surfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A085D319595F0300C663F8 /* Build configuration list for PBXNativeTarget "Air Surfer" */;
+			buildPhases = (
+				94A0859619595F0300C663F8 /* Sources */,
+				94A0859719595F0300C663F8 /* Frameworks */,
+				94A0859819595F0300C663F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Air Surfer";
+			productName = "Air Surfer";
+			productReference = 94A0859A19595F0300C663F8 /* Air Surfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94A085C119595F0300C663F8 /* Air SurferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A085D619595F0300C663F8 /* Build configuration list for PBXNativeTarget "Air SurferTests" */;
+			buildPhases = (
+				94A085BE19595F0300C663F8 /* Sources */,
+				94A085BF19595F0300C663F8 /* Frameworks */,
+				94A085C019595F0300C663F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94A085C819595F0300C663F8 /* PBXTargetDependency */,
+			);
+			name = "Air SurferTests";
+			productName = "Air SurferTests";
+			productReference = 94A085C219595F0300C663F8 /* Air SurferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94A0859219595F0300C663F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ryan King";
+				TargetAttributes = {
+					94A085C119595F0300C663F8 = {
+						TestTargetID = 94A0859919595F0300C663F8;
+					};
+				};
+			};
+			buildConfigurationList = 94A0859519595F0300C663F8 /* Build configuration list for PBXProject "Air Surfer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94A0859119595F0300C663F8;
+			productRefGroup = 94A0859B19595F0300C663F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94A0859919595F0300C663F8 /* Air Surfer */,
+				94A085C119595F0300C663F8 /* Air SurferTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94A0859819595F0300C663F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949BDE831A19AAF3003561FE /* airSurferTheme.mp3 in Resources */,
+				942C3E6219FA3EB7009A1601 /* heart.atlas in Resources */,
+				94A82D1F1A0CA21C00286824 /* titleFontAirSurfer.png in Resources */,
+				9491FF731A037CA900AA4959 /* fireGeneratorSprite.png in Resources */,
+				94BB860219FDAE81005CC15D /* planetTexturesMGSecond.png in Resources */,
+				949BDE891A19B513003561FE /* explosion0.mp3 in Resources */,
+				943549A61A07830100710443 /* cometObstacle.atlas in Resources */,
+				94622AB91A06015200468A58 /* airSurferCreditsDone.gif in Resources */,
+				943549A41A0770EE00710443 /* airSurferInstructions.gif in Resources */,
+				94A085AA19595F0300C663F8 /* InfoPlist.strings in Resources */,
+				94A085BD19595F0300C663F8 /* Images.xcassets in Resources */,
+				940A8E7E1A10A3E400370BB1 /* sparkParticle.sks in Resources */,
+				949BDE851A19AAF3003561FE /* explosion1.mp3 in Resources */,
+				9491FF741A037CA900AA4959 /* fireGeneratorSprite2.png in Resources */,
+				94EFA6A11A0EE9C90035D2C2 /* spark.png in Resources */,
+				94EFA6B01A0F0AE10035D2C2 /* test.sks in Resources */,
+				9422BC121A13334000169693 /* restartButton.png in Resources */,
+				942C3E6819FA5043009A1601 /* starMG.png in Resources */,
+				949BDE861A19AAF3003561FE /* explosion2.aif in Resources */,
+				942C3E6019FA2883009A1601 /* board.atlas in Resources */,
+				942C3E6719FA5043009A1601 /* starFG.png in Resources */,
+				94A085B319595F0300C663F8 /* Main.storyboard in Resources */,
+				94BB860119FDAE81005CC15D /* planetTexturesMG.png in Resources */,
+				94EFA6AA1A0EF05F0035D2C2 /* fireParticle.sks in Resources */,
+				9491FF701A037C4400AA4959 /* basicObstacle.atlas in Resources */,
+				942C3E6619FA5043009A1601 /* starBG.png in Resources */,
+				94818A721A045F6400E40B31 /* meteoWall.atlas in Resources */,
+				942C3E5E19FA2871009A1601 /* airSurferPlayerSprite.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A085C019595F0300C663F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A085CE19595F0300C663F8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94A0859619595F0300C663F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A085B019595F0300C663F8 /* ASAppDelegate.m in Sources */,
+				94818A751A049C0000E40B31 /* ASCometObstacle.m in Sources */,
+				94A085DB19595F5700C663F8 /* ASGameLevel.m in Sources */,
+				94A085E11959636E00C663F8 /* ASSurferBoard.m in Sources */,
+				947A48711962463200E8DD5C /* ASFireGenerators.m in Sources */,
+				94A085DE19595FCE00C663F8 /* ASPlayer.m in Sources */,
+				94947A541A05A3E300E59C9C /* ASCreditsScene.m in Sources */,
+				94A085B619595F0300C663F8 /* ASViewController.m in Sources */,
+				94947A511A05A3D200E59C9C /* ASInstructionsScene.m in Sources */,
+				94947A4D1A05920700E59C9C /* ASMainMenu.m in Sources */,
+				94A085B919595F0300C663F8 /* ASMyScene.m in Sources */,
+				94A085AC19595F0300C663F8 /* main.m in Sources */,
+				94410661195FA2ED000563F2 /* ASBasicObstacle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A085BE19595F0300C663F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A085D019595F0300C663F8 /* Air_SurferTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94A085C819595F0300C663F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94A0859919595F0300C663F8 /* Air Surfer */;
+			targetProxy = 94A085C719595F0300C663F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94A085A819595F0300C663F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94A085A919595F0300C663F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94A085B119595F0300C663F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94A085B219595F0300C663F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94A085CC19595F0300C663F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94A085CD19595F0300C663F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94A085D119595F0300C663F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94A085D219595F0300C663F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94A085D419595F0300C663F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Air Surfer/Air Surfer-Prefix.pch";
+				INFOPLIST_FILE = "Air Surfer/Air Surfer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94A085D519595F0300C663F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Air Surfer/Air Surfer-Prefix.pch";
+				INFOPLIST_FILE = "Air Surfer/Air Surfer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		94A085D719595F0300C663F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Air Surfer.app/Air Surfer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Air Surfer/Air Surfer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Air SurferTests/Air SurferTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		94A085D819595F0300C663F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Air Surfer.app/Air Surfer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Air Surfer/Air Surfer-Prefix.pch";
+				INFOPLIST_FILE = "Air SurferTests/Air SurferTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94A0859519595F0300C663F8 /* Build configuration list for PBXProject "Air Surfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A085D119595F0300C663F8 /* Debug */,
+				94A085D219595F0300C663F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94A085D319595F0300C663F8 /* Build configuration list for PBXNativeTarget "Air Surfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A085D419595F0300C663F8 /* Debug */,
+				94A085D519595F0300C663F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94A085D619595F0300C663F8 /* Build configuration list for PBXNativeTarget "Air SurferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A085D719595F0300C663F8 /* Debug */,
+				94A085D819595F0300C663F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94A0859219595F0300C663F8 /* Project object */;
+}
