@@ -1,8 +1,8 @@
 # air-surfer
-Air Surfer was released in 2014
-iOS app/game created in Objective-C.
-Used the Sprite Kit framework. 
-Info in the App Store link below.
+Air Surfer was released in 2014  
+iOS app/game created in Objective-C.  
+Used the Sprite Kit framework.   
+Info in the App Store link below.  
 
 by Ryan King
 
